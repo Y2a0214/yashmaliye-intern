@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .type{
+    color: blue;
+  }
+
+  #font{
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  div a{
+      color: #ff2e13;
+      font-style: italic;
+  }
+  
+  div > span{
+      padding: 10px;
+  }
+  
+  div ~ h2{
+      color: aqua;
+  }
+  
+  div + h3{
+      color: blueviolet;
+  }
+  
+  .or1 , .or2{
+      color: darkgreen;
+      font-weight: 600;
+  }
+  
+  .andno1,.andno2{
+      color: rgb(154, 37, 128);
+  }
+  
+  .hover:hover{
+      background-color: rgb(242, 23, 23);
+      border: none;
+      padding: 6px;
+      
+  }
+  
+  [type='text']{
+      color: #ff2e13;
+  }
